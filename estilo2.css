@@ -1,0 +1,133 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+header{
+    background-color: rgba(90, 161, 236, 0.918);
+    background-position: center;
+}
+#logo_agil{
+    padding-top: 15px;
+}
+.menu, .rodape{
+    word-spacing: 5px;
+}
+.menu a{
+    text-decoration-line: none;
+    color: rgb(19, 19, 131);
+    background-color: rgba(189, 214, 241, 0.918);
+    border-radius: 5px;
+}
+.menu a:hover{
+    font-size: larger;
+    border-radius: 5px;
+}
+h1, h2, h3{
+    color: rgb(19, 19, 131);
+    text-align: center;
+}
+h1{
+    background-color: rgba(189, 214, 241, 0.918);
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    
+ }
+ /*Aqui temos os Article*/
+.assuntos1, .assuntos2, .assuntos3, .assuntos4{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: auto;
+}
+/*Sobre nós*/
+.assuntos1{
+    text-align: justify;
+    text-indent: 40px;
+    background-color: aliceblue;
+}
+/*Perguntas Frequentes*/
+.assuntos2{
+    text-align: left;
+    background-color: rgba(189, 214, 241, 0.918);
+}
+/*Suporte*/
+.assuntos3{
+    text-align: left;
+    background-color: aliceblue;
+}
+/*Fale conosco*/
+.assuntos4{
+    text-align: center;
+    background-color: rgba(189, 214, 241, 0.918);
+}
+p, ol, ul{
+    font-size: 18px;
+    padding-bottom: 15px;
+    line-height: 30px;
+}
+aside.perguntas{
+    text-align: center;
+    vertical-align:text-top;
+    padding-left: 2px;
+    margin-left: 2px;
+    float:right;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;   
+}
+aside.suportes{
+    text-align: center;
+    vertical-align:text-top;
+    padding-left: 2px;
+    margin-left: 2px;
+    float:left;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+/*Figura das perguntas frequentes*/
+#figura1{
+    width: 450px;
+    border-radius: 5px;
+}
+/*Figura do menu Suporte*/
+#figura2{
+    width: 600px;
+    height: 350px;
+    border-radius: 5px;
+    padding-right: 40px;
+}
+/*Figura 3 QR Code*/
+#figura3{
+    width: 200px;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+footer{
+    padding-top: 50px;
+}
+.contato a{
+    text-decoration-line: none;
+    font-style: normal;
+    color: black;
+    font-size: large;
+}
+.contato a:hover{
+    color: rgb(31, 17, 161);
+    font-size: larger;
+}
+.rodape a{
+    text-decoration-line: none;
+    color: rgb(19, 19, 131);
+    background-color: rgba(189, 214, 241, 0.918);
+    border-radius: 5px;
+}
+.rodape a:hover{
+    font-size: larger;
+    border-radius: 5px;
+}
+.fim{
+    padding-top: 20px;
+    font-size: small;
+}
